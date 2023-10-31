@@ -1,0 +1,34 @@
+{
+  "name": "bella-lang",
+  "displayName": "Bella Lang",
+  "description": "Syntax highlighting for the Bella programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "bella",
+        "aliases": [
+          "Bella",
+          "bella"
+        ],
+        "extensions": [
+          ".bella"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "bella",
+        "scopeName": "source.bella",
+        "path": "./syntaxes/bella.tmLanguage.json"
+      }
+    ]
+  }
+}

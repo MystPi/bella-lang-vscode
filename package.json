@@ -3,6 +3,7 @@
   "displayName": "Bella Lang",
   "description": "Syntax highlighting for the Bella programming language",
   "version": "0.0.1",
+  "icon": "./images/bella-logo.png",
   "engines": {
     "vscode": "^1.83.0"
   },

@@ -2,7 +2,7 @@
   "name": "bella-lang",
   "displayName": "Bella Lang",
   "description": "Syntax highlighting for the Bella programming language",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "mystpi",
   "icon": "./images/bella-logo.png",
   "engines": {

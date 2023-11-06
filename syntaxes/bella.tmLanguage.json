@@ -40,7 +40,7 @@
       "patterns": [
         {
           "name": "keyword.control",
-          "match": "\\b(if|else|let|in|try|throw|import|as)\\b"
+          "match": "\\b(match|is|if|then|else|let|in|try|throw|import|as)\\b"
         },
         {
           "name": "keyword.operator",

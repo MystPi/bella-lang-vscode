@@ -25,4 +25,12 @@
     ["\"", "\""],
     ["'", "'"]
   ],
+  "onEnterRules": [
+    {
+      "beforeText": "^.*(?:=|->|\\b(?:then|let|else|try))\\s*$",
+      "action": {
+        "indent": "indent"
+      }
+    }
+  ]
 }
